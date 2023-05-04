@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Displays listening ports,socket as well as PID and name of the program to which easch socket belongs.
+
+netstate -1 --program
